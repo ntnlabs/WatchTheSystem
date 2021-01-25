@@ -6,7 +6,7 @@ from time import sleep
 msg = ""                                  # the message that will be sent
 serverAddressPort = ("rainbow", 12345)    # server hostname/ip and port
 bufferSize = 32                           # buffer size
-Run = False                               # just in case we wanna control the 
+Run = False                               # just in case we wanna control the main loop
 
 # let's start the sending
 def Start_meranie():
